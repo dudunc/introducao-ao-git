@@ -1,0 +1,44 @@
+Conteúdo:
+
+Criando um Repositório no GitHub:
+
+Acesse sua conta no GitHub.
+Clique no botão "New" ou "Novo repositório".
+Preencha as informações do repositório (nome, descrição, visibilidade).
+Clique em "Create repository".
+Configurando o Repositório Local:
+
+Abra o terminal ou o Git Bash.
+Navegue até o diretório onde deseja criar o repositório.
+Execute o comando para inicializar um repositório:
+bash
+Copiar código
+git init
+Adicionando Arquivos ao Repositório:
+
+Para adicionar arquivos ao repositório, utilize:
+bash
+Copiar código
+git add .
+Fazendo o Primeiro Commit:
+
+Salve as alterações com uma mensagem:
+bash
+Copiar código
+git commit -m "Primeiro commit"
+Configurando o Repositório Remoto:
+
+Conecte o repositório local ao GitHub:
+bash
+Copiar código
+git remote add origin https://github.com/usuario/nome-do-repositorio.git
+Enviando para o Repositório Remoto:
+
+Para enviar as alterações ao GitHub, use:
+bash
+Copiar código
+git push -u origin main
+Notas:
+
+Certifique-se de que o Git está instalado em seu sistema.
+Troque usuario e nome-do-repositorio pela sua informação real no GitHub.
